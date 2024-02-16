@@ -1,0 +1,41 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.mdiv{
+	height: 100vh;
+	width: 100%;
+	/*position: fixed;*/
+	top: 0px;
+	left: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url("https://c0.wallpaperflare.com/preview/237/437/217/accurate-antique-blur-classic.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.container{
+	height: 450px;
+	width: 350px;
+	box-shadow: 0px 0px 30px red;
+	border-radius: 30px;
+	padding: 20px;
+	background: transparent;
+	backdrop-filter: blur(20px);
+}
+.heading{
+	color: #0af5f5;
+	font-size: 40px;
+	font-family: arial black;
+	text-align: center;
+	margin-bottom: 15px;
+}
+#tm{
+	margin-top: 60%;
+	margin-left: 20%;
+	font-size: 50px;
+
+}
